@@ -1,0 +1,91 @@
+@import '../../../index.scss';
+
+.c-homepage {
+
+    display: flex;
+    justify-content: center;
+    //background: lightblue;
+    flex-direction: column;
+
+    &__search {
+
+        //width: 100%;
+        //background: lightcoral;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h1 {
+            margin-top: 45px;
+            font-size: 56px;
+        }
+
+        input {
+            margin: 25px;
+            border: none;
+            outline: none;
+            padding: 10px 0;
+            background: transparent;
+            border-bottom: 3px solid rgb(255, 230, 2);
+            color: whitesmoke;
+
+            &:focus {
+
+              background: linear-gradient(to bottom, transparent, rgb(46, 46, 46))
+            }
+        }
+
+        button {
+
+            border: none;
+            color: whitesmoke;
+            padding: 8px;
+            background: rgb(59, 127, 252);
+
+        }
+    }
+
+    &__display {
+        //border: 1px solid blue;
+        display: flex;
+        justify-content: center;
+        margin: 20px auto;
+
+        h1 {
+            text-align: center;
+            font-size: 24px;
+        }
+
+        &-card {
+            width: 280px;            
+            margin: 20px;
+            background: linear-gradient(45deg, #7c2ff7a4, #f107a373);
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+            justify-content: center;
+            border-radius: 10px;
+            padding: 15px;
+            border: 3px solid rgb(255, 230, 2);
+
+            h1 {
+                text-transform: capitalize;
+                margin-bottom: 5px;
+            }
+
+            img {
+                width: 180px;            
+                padding: 15px;
+                background: #9e6af052;
+                border-radius: 10px;
+                margin: 10px auto;
+            }
+
+            h3, h4 {
+                text-align: left;
+            }
+        }        
+    }
+}
