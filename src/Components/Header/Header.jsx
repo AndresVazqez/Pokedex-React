@@ -10,8 +10,7 @@ export default function Header () {
                     <NavLink to='/'><img  src='https://i.ibb.co/gDJGk7t/pokeapi-256.png' alt='pokeLogo'/></NavLink>                  
                 </div>               
                 <ul className="c-header__nav--a">
-                    <li><NavLink className="c-header__nav--a-li" to="/">Home</NavLink></li>
-                    <li><NavLink className="c-header__nav--a-li" to="pokemones">Pokémones</NavLink></li>
+                    <li><NavLink className="c-header__nav--a-li" to="/">Home</NavLink></li>                   
                 </ul>                
             </nav>                        
         </div>
